@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wholecontainer">
+        <div class="title">
+            <span>Coder TodoList</span>
+            <span>Tasklari daxil edin</span>
+        </div>
+
+        <div class="navbar">
+            <div>
+                <input type="text" id='text' placeholder='Buraya task daxil ediləcək'>
+            </div>
+            <div class='add'>Əlavə et</div>
+            <div class='checked_delete' onclick='checkedDelete()'>Seçilmişləri Sil</div>
+            <div class='check_all' onclick='allSelect()'>Hamısını seç</div>
+        </div>
+
+        <div class='box_container'></div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
